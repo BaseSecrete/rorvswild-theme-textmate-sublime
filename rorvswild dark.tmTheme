@@ -234,7 +234,7 @@
 			<key>name</key>
 			<string>Library class&#x2f;type</string>
 			<key>scope</key>
-			<string>support.class.ruby</string>
+			<string>support.type, support.class</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -280,6 +280,20 @@
 				<string>#B39DE2</string>
 				<key>fontStyle</key>
 				<string> bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS property</string>
+			<key>scope</key>
+			<string>source.css
+meta.property-list.css
+meta.property-name.css
+support.type.property-name.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#9FA9BB</string>
 			</dict>
 		</dict>
 	</array>
